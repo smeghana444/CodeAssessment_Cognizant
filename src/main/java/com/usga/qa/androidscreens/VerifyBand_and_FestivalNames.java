@@ -47,6 +47,7 @@ public void verifyfestivalsnames(String festivalname) throws Exception
 		List<WebElement> verifyfestivalsband=getnames.festivalsnames;
 		int similarfestivalname=0;  
         int size=verifyfestivalsband.size();
+        System.out.println("size is " +size);
         System.out.println(size);
         for (int i = 0; i <size; i++) 
         {
@@ -63,15 +64,13 @@ public void verifyfestivalsnames(String festivalname) throws Exception
          	ExtentTestManager.getTest().log(Status.INFO, festivalname+" festivalname is similar for " + similarfestivalname + " times");
             Thread.sleep(3000);
             }
-            
-            else if(printfestivalname.equalsIgnoreCase("Unknown"))
-     	   {
-     		   System.out.println(printfestivalname+ " festivalname not matched with" +festivalname);
-     		 
-     	   }
-          
+                    
         }
-	
+       if(size==0)
+  	   {
+  		 
+  		  ExtentTestManager.getTest().log(Status.INFO, " festival name not matched: Unknown ");
+  	   }
 	}
 public void verifybandnames(String bandname, String scrolltillbandname) throws Exception
 
@@ -101,7 +100,7 @@ public void verifybandnames(String bandname, String scrolltillbandname) throws E
         	
  	   {
  		  System.out.println(printbandname+ " bandname not matched with" +bandname);
- 		  ExtentTestManager.getTest().log(Status.INFO, printbandname);
+ 		  ExtentTestManager.getTest().log(Status.INFO," bandname not matched");
  	   }
         if(size==i+1)
         {

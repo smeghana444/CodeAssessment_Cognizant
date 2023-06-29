@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-29T13:51:31 IST" name="Suite" finished-at="2023-06-29T13:52:35 IST" duration-ms="63663">
+  <suite started-at="2023-06-29T16:14:10 IST" name="Suite" finished-at="2023-06-29T16:15:05 IST" duration-ms="54969">
     <groups>
     </groups>
-    <test started-at="2023-06-29T13:51:31 IST" name="Test" finished-at="2023-06-29T13:52:35 IST" duration-ms="63663">
+    <test started-at="2023-06-29T16:14:10 IST" name="Test" finished-at="2023-06-29T16:15:05 IST" duration-ms="54969">
       <class name="com.usga.qa.tests.Android">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.usga.qa.tests.Android@231f98ef]" started-at="2023-06-29T13:51:31 IST" name="setup" finished-at="2023-06-29T13:51:43 IST" duration-ms="11112" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.usga.qa.tests.Android@231f98ef]" started-at="2023-06-29T16:14:10 IST" name="setup" finished-at="2023-06-29T16:14:21 IST" duration-ms="11161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyFestivalName(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.usga.qa.tests.Android@231f98ef]" started-at="2023-06-29T13:51:43 IST" name="VerifyFestivalName" data-provider="getTestData" finished-at="2023-06-29T13:51:58 IST" duration-ms="15188" status="PASS">
+        <test-method signature="VerifyFestivalName(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.usga.qa.tests.Android@231f98ef]" started-at="2023-06-29T16:14:22 IST" name="VerifyFestivalName" data-provider="getTestData" finished-at="2023-06-29T16:14:42 IST" duration-ms="20156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyFestivalName -->
-        <test-method signature="VerifyBandName(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.usga.qa.tests.Android@231f98ef]" started-at="2023-06-29T13:51:58 IST" name="VerifyBandName" data-provider="getTestData" finished-at="2023-06-29T13:52:34 IST" duration-ms="36172" status="FAIL">
+        <test-method signature="VerifyBandName(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.usga.qa.tests.Android@231f98ef]" started-at="2023-06-29T16:14:42 IST" name="VerifyBandName" data-provider="getTestData" finished-at="2023-06-29T16:15:04 IST" duration-ms="22384" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -57,9 +57,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '19.0.1'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [72956486-f9b8-4162-9dab-9a700190c247, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("Yan East"));}]
+Command: [bb0094e4-eb02-4d5a-84c5-debe517cf92e, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("Yan East"));}]
 Capabilities {appium:app: /Users/someghana/eclipse-wo..., appium:appPackage: com.energyaustralia.codingt..., appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/someghana/eclipse-wo..., automationName: UiAutomator2, deviceName: Android SDK built for x86, platformName: android, platformVersion: 10}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 240, appium:deviceScreenSize: 480x800, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.5, appium:platformVersion: 10, appium:statBarHeight: 36, appium:takesScreenshot: true, appium:viewportRect: {height: 764, left: 0, top: 36, width: 480}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 72956486-f9b8-4162-9dab-9a700190c247]]>
+Session ID: bb0094e4-eb02-4d5a-84c5-debe517cf92e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
@@ -67,9 +67,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.6.0', revision: '79f1c02ae20'
 System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '19.0.1'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [72956486-f9b8-4162-9dab-9a700190c247, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("Yan East"));}]
+Command: [bb0094e4-eb02-4d5a-84c5-debe517cf92e, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector()).scrollIntoView(new UiSelector().text("Yan East"));}]
 Capabilities {appium:app: /Users/someghana/eclipse-wo..., appium:appPackage: com.energyaustralia.codingt..., appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/someghana/eclipse-wo..., automationName: UiAutomator2, deviceName: Android SDK built for x86, platformName: android, platformVersion: 10}, appium:deviceApiLevel: 29, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 240, appium:deviceScreenSize: 480x800, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 1.5, appium:platformVersion: 10, appium:statBarHeight: 36, appium:takesScreenshot: true, appium:viewportRect: {height: 764, left: 0, top: 36, width: 480}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 72956486-f9b8-4162-9dab-9a700190c247
+Session ID: bb0094e4-eb02-4d5a-84c5-debe517cf92e
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -83,7 +83,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at com.usga.qa.androidscreens.VerifyBand_and_FestivalNames.verifybandnames(VerifyBand_and_FestivalNames.java:108)
+at com.usga.qa.androidscreens.VerifyBand_and_FestivalNames.verifybandnames(VerifyBand_and_FestivalNames.java:109)
 at com.usga.qa.tests.Android.VerifyBandName(Android.java:44)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
